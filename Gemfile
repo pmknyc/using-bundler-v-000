@@ -6,3 +6,6 @@ gem "octokit", "~> 2.0"
 gem "awesome_print", "~> 1.8", ">= 1.8.0", git: "https://github.com/awesome-print/awesome_print"
 gem "pry", group: :development
 
+group :test do
+  gem "rspec"
+end
